@@ -1,0 +1,157 @@
+html {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+.layout {
+    display: flex;
+}
+
+.container-menu {
+    border: solid 1px green;
+    font-size: 20px;
+    width: 50%;
+    position: relative;
+}
+
+.container-logo {
+    position: absolute;
+    top: 35px;
+    left: 25px;
+
+}
+
+.ONews {
+    width: 25%; 
+    height: 25%;
+}
+
+
+.illustration {
+    margin: 0px;
+    width: 100%;
+}
+
+.illustration img {
+    width: 100%;
+    margin: 0px;
+}
+
+.navigation
+{
+    text-align: right;
+    display: inline;
+    bottom: 25px;
+    left: 25px;
+}
+
+ul
+{
+    text-align: right;
+}
+
+
+.container-texte {
+    border: solid 1px purple;
+    margin: 0px;
+    width: 50%;
+
+   
+}
+
+.pavestextes {
+    border: solid 1px #eaeaea;
+    margin: 0px;
+    font-size: 20px;
+    width: 50%;
+    
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+    width: 3em;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+
+ .container-texte h2 {
+    color: black;
+    background-color: #f9f9f9;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+    left: 40px;
+    font-size: 1.5em;
+}
+
+
+.categorie__news 
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: #98DC62;
+    border: none;
+    border-radius: 10%;
+    padding: 5px 5px
+}
+
+.categorie__team 
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: #DC5E53;
+    border: none;
+    border-radius: 10%;
+    padding: 5px 5px
+}
+
+.categorie__work 
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: #0766F0;
+    border: none;
+    border-radius: 10%;
+    padding: 5px 5px
+}
+
+
+.textesdesnews
+{
+    display: flex;
+    flex-direction: row;
+  
+    
+}
+
+.bandeau  /*.container-menu*/
+{
+    color: white;
+    position: absolute; 
+    top: 50%;
+   background-color: #eaeaea20;
+   margin: 1em;
+   padding: 1.5em;
+   line-height: 2em;
+   text-align: right;    
+} 
+.bandeau h2  /*.container-menu*/
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    border-color: black;
+    
+
+}
+.bandeau em {
+    font-size: 0.75em;
+    font-style: italic;
+    font-weight: lighter;
+    
+}
+
